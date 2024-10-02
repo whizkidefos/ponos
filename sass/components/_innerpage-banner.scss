@@ -1,0 +1,27 @@
+.innerpage-banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/ponos-banner.jpg') no-repeat center center/cover;
+    height: 350px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &-content {
+        max-width: 600px;
+        width: 98%;
+        text-align: center;
+        margin: auto;
+
+        h1 {
+            color: $yellow;
+            font-size: 2.5rem;
+            font-weight: 580;
+            margin-bottom: 20px;
+        }
+
+        p {
+            color: white;
+            font-size: 1.2rem;
+        }
+    }
+}

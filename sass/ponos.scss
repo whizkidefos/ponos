@@ -1,0 +1,35 @@
+$blue: #183356;
+$yellow: #f1bc53;
+$box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+.main-content {
+    margin-top: 80px;
+}
+
+.ponos-cta {
+    border: none;
+    display: inline-block;
+    padding: 10px 20px;
+    background: $blue;
+    color: $yellow;
+    font-size: 14px;
+    text-align: center;
+    transition: background 0.3s;
+
+    &:hover {
+        background: $yellow !important;
+        color: $blue;
+        text-decoration: none;
+    }
+}
+
+@import "components/header";
+@import "components/footer";
+@import "components/banner";
+@import "components/innerpage-banner";
+@import "components/intro";
+@import "components/callout";
+@import "components/personnel";
+
+@import "pages/about";
+@import "pages/services";
