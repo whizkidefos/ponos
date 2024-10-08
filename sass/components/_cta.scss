@@ -1,0 +1,19 @@
+.cta {
+    background: #f1f1f1;
+    padding: 3rem 0;
+
+    &-content {
+        background: white;
+        padding: 3rem 2rem;
+
+        @media (max-width: 768px) {
+            padding: 3rem 1rem;
+        }
+
+        h4 {
+            color: $blue;
+            font-weight: 600;
+            margin: 0;
+        }
+    }
+}

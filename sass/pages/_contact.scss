@@ -1,0 +1,50 @@
+.contact {
+    padding: 5rem 0;
+
+    &-form {
+        padding: 20px;
+        width: 100%;
+
+        @media (max-width: 768px) {
+            padding: 15px;
+        }
+    }
+
+    div.wpforms-container-full,
+    div.wpforms-container-full * {
+        width: 100% !important;
+        text-align: left;
+    }
+
+    &-details {
+        background: $blue;
+        color: white;
+        padding: 3rem 20px;
+
+        address, summary {
+            margin-bottom: 30px;
+        }
+
+        h4 {
+            color: white;
+            margin-bottom: 15px;
+        }
+
+        p {
+            margin: 0;
+        }
+
+        a {
+            color: $yellow;
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+
+        @media (max-width: 768px) {
+            padding: 10px;
+        }
+    }
+}

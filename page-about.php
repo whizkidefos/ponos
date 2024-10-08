@@ -4,9 +4,9 @@
 
 <section class="about-us-content">
     <div class="uk-container">
-        <div class="uk-child-width-1-2@s" uk-grid>
+        <div class="uk-child-width-expand@s">
             <div class="">
-                <ul class="uk-tab-left" uk-tab uk-switcher="connect: .about-details">
+                <ul class="uk-tab" uk-tab uk-switcher="connect: .about-details">
                     <li class="uk-active">
                         <a href="#company">Company Brief</a>
                     </li>

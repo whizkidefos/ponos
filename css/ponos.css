@@ -365,6 +365,25 @@ footer {
   margin: 0;
 }
 
+.cta {
+  background: #f1f1f1;
+  padding: 3rem 0;
+}
+.cta-content {
+  background: white;
+  padding: 3rem 2rem;
+}
+@media (max-width: 768px) {
+  .cta-content {
+    padding: 3rem 1rem;
+  }
+}
+.cta-content h4 {
+  color: #183356;
+  font-weight: 600;
+  margin: 0;
+}
+
 .about-us-content {
   padding: 5rem 0;
 }
@@ -376,4 +395,67 @@ footer {
 
 .services {
   padding: 5rem 0;
+}
+
+.contact {
+  padding: 5rem 0;
+}
+.contact-form {
+  padding: 20px;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .contact-form {
+    padding: 15px;
+  }
+}
+.contact div.wpforms-container-full,
+.contact div.wpforms-container-full * {
+  width: 100% !important;
+  text-align: left;
+}
+.contact-details {
+  background: #183356;
+  color: white;
+  padding: 3rem 20px;
+}
+.contact-details address, .contact-details summary {
+  margin-bottom: 30px;
+}
+.contact-details h4 {
+  color: white;
+  margin-bottom: 15px;
+}
+.contact-details p {
+  margin: 0;
+}
+.contact-details a {
+  color: #f1bc53;
+  text-decoration: none;
+}
+.contact-details a:hover {
+  text-decoration: underline;
+}
+@media (max-width: 768px) {
+  .contact-details {
+    padding: 10px;
+  }
+}
+
+.page-details {
+  background: #f1f1f1;
+  padding-bottom: 2rem;
+}
+.page-details .custom-featured-image {
+  margin-top: -3rem;
+  border: 5px solid #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+.page-details h1, .page-details h2, .page-details h3, .page-details h4, .page-details h5, .page-details h6 {
+  color: #183356;
+  font-weight: 600;
+  margin-top: 2rem;
 }
