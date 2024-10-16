@@ -1,6 +1,13 @@
 <?php get_header(); ?>
 
-<?php get_template_part('/components/innerpage-banner'); ?>
+<header class="innerpage-banner">
+    <div class="innerpage-banner-content">
+        <h1><?php the_title(); ?></h1>
+        <p>
+            In PONOS SUPPORT SERVICES LIMITED, the emphasis is on flexibility responsiveness to project requirements rather than rigid organizational structure.
+        </p>
+    </div>
+</header>
 
 <section class="about-us-content">
     <div class="uk-container">

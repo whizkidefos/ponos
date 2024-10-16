@@ -1,3 +1,12 @@
+@import "https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,900&display=swap";
+html, body {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Nunito Sans", sans-serif;
+}
+
 .main-content {
   margin-top: 80px;
 }
@@ -234,6 +243,7 @@ footer {
 .intro-box {
   background: #234b7e;
   padding: 20px;
+  position: relative;
 }
 .intro-box svg {
   font-size: 1.5rem;
@@ -254,6 +264,9 @@ footer {
   transition: 350ms;
   display: flex;
   align-items: center;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
 }
 .intro-box a svg {
   font-size: 0.8rem;
@@ -398,48 +411,60 @@ footer {
 }
 
 .contact {
-  padding: 5rem 0;
+  padding: 3rem 0 5rem 0;
 }
-.contact-form {
-  padding: 20px;
-  width: 100%;
-}
-@media (max-width: 768px) {
-  .contact-form {
-    padding: 15px;
-  }
-}
-.contact div.wpforms-container-full,
-.contact div.wpforms-container-full * {
-  width: 100% !important;
-  text-align: left;
-}
-.contact-details {
+.contact-header {
   background: #183356;
   color: white;
-  padding: 3rem 20px;
+  padding: 30px 20px;
+  margin-bottom: 3rem;
 }
-.contact-details address, .contact-details summary {
-  margin-bottom: 30px;
-}
-.contact-details h4 {
+.contact-header h2 {
   color: white;
-  margin-bottom: 15px;
-}
-.contact-details p {
+  font-size: 2.5rem;
+  font-weight: 900;
   margin: 0;
 }
-.contact-details a {
-  color: #f1bc53;
+@media screen and (max-width: 768px) {
+  .contact-header h2 {
+    font-size: 2rem;
+  }
+}
+.contact-details {
+  margin: 2rem 0;
+}
+.contact address, .contact summary {
+  margin: 20px 0;
+}
+.contact address h4, .contact summary h4 {
+  color: #183356;
+  font-weight: 500;
+}
+.contact address a, .contact summary a {
+  color: #183356;
   text-decoration: none;
 }
-.contact-details a:hover {
-  text-decoration: underline;
+.contact .map-box {
+  margin-top: 2rem;
 }
-@media (max-width: 768px) {
-  .contact-details {
-    padding: 10px;
-  }
+
+form.fluent_form_1 input[type=text],
+form.fluent_form_1 input[type=email],
+form.fluent_form_1 input[type=number],
+form.fluent_form_1 textarea {
+  border-radius: 0 !important;
+  font-family: inherit !important;
+}
+
+form.fluent_form_1 .ff-btn-submit:not(.ff_btn_no_style) {
+  background-color: #183356 !important;
+  border-radius: 0 !important;
+  color: #f1bc53 !important;
+  font-family: inherit !important;
+}
+form.fluent_form_1 .ff-btn-submit:not(.ff_btn_no_style):hover {
+  background-color: #f1bc53 !important;
+  color: #183356 !important;
 }
 
 .page-details {

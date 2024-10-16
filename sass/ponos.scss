@@ -1,6 +1,16 @@
+@import "https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,900&display=swap";
+
 $blue: #183356;
 $yellow: #f1bc53;
 $box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+html, body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Nunito Sans', sans-serif;
+}
 
 .main-content {
     margin-top: 80px;

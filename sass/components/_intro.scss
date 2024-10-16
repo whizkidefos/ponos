@@ -25,6 +25,7 @@
 .intro-box {
     background: lighten($blue, 10%);
     padding: 20px;
+    position: relative;
 
     svg {
         font-size: 1.5rem;
@@ -47,6 +48,9 @@
         transition: 350ms;
         display: flex;
         align-items: center;
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
 
         svg {
             font-size: 0.8rem;
