@@ -1,0 +1,19 @@
+.brochure {
+  background: rgb(243, 243, 243);
+  padding: 5rem 0;
+
+  .brochure-wrapper {
+    background: white;
+    padding: 30px;
+
+    p {
+      color: $blue;
+    }
+
+    a {
+        svg {
+            margin-right: 10px;
+        }
+    }
+  }
+}

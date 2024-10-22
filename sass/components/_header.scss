@@ -14,6 +14,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 10px;
 
     .logo a {
         text-decoration: none;
@@ -48,7 +49,17 @@
             a {
                 color: $yellow;
                 text-decoration: none;
+                transition: 350ms;
+
+                &:hover {
+                    color: white;
+                }
             }
+        }
+
+        li.current-menu-item a {
+            color: white;
+            font-weight: 500;
         }
     }
 }
@@ -112,6 +123,7 @@
 @media (max-width: 960px) {
     .burger {
         display: block;
+        margin-top: 10px;
     }
 
     .main-menu {

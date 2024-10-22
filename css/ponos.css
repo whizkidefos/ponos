@@ -43,6 +43,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 10px;
 }
 .site-navigation .logo a {
   text-decoration: none;
@@ -72,6 +73,14 @@ h1, h2, h3, h4, h5, h6 {
 .main-menu ul li a {
   color: #f1bc53;
   text-decoration: none;
+  transition: 350ms;
+}
+.main-menu ul li a:hover {
+  color: white;
+}
+.main-menu ul li.current-menu-item a {
+  color: white;
+  font-weight: 500;
 }
 
 .burger {
@@ -126,6 +135,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 960px) {
   .burger {
     display: block;
+    margin-top: 10px;
   }
   .main-menu {
     border-top: 1px solid #f1bc53;
@@ -170,6 +180,11 @@ footer {
   justify-content: center;
   align-items: center;
 }
+@media (max-width: 768px) {
+  .banner {
+    height: 500px;
+  }
+}
 .banner .banner-content {
   max-width: 900px;
   width: 100%;
@@ -186,6 +201,11 @@ footer {
 @media (max-width: 768px) {
   .banner .banner-content h2 {
     font-size: 3rem;
+  }
+}
+@media (max-width: 520px) {
+  .banner .banner-content h2 {
+    font-size: 2rem;
   }
 }
 .banner .banner-content img {
@@ -228,6 +248,11 @@ footer {
   font-size: 2.5rem;
   font-weight: 900;
   margin: 0;
+}
+@media (max-width: 768px) {
+  .intro h3 {
+    font-size: 2rem;
+  }
 }
 .intro h6 {
   color: #f1bc53;
@@ -368,6 +393,10 @@ footer {
   margin: 0;
   text-transform: uppercase;
 }
+.personnel h4 {
+  font-size: 1rem;
+  font-weight: 700;
+}
 
 .key-personnel article {
   background: white;
@@ -395,6 +424,21 @@ footer {
   color: #183356;
   font-weight: 600;
   margin: 0;
+}
+
+.brochure {
+  background: rgb(243, 243, 243);
+  padding: 5rem 0;
+}
+.brochure .brochure-wrapper {
+  background: white;
+  padding: 30px;
+}
+.brochure .brochure-wrapper p {
+  color: #183356;
+}
+.brochure .brochure-wrapper a svg {
+  margin-right: 10px;
 }
 
 .about-us-content {

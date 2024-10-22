@@ -7,6 +7,10 @@
     justify-content: center;
     align-items: center;
 
+    @media (max-width: 768px) {
+        height: 500px;
+    }
+
     .banner-content {
         max-width: 900px;
         width: 100%;
@@ -22,6 +26,10 @@
 
             @media (max-width: 768px) {
                 font-size: 3rem;
+            }
+
+            @media (max-width: 520px) {
+                font-size: 2rem;
             }
         }
     

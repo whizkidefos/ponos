@@ -39,4 +39,6 @@
     </div>
 </section>
 
+<?php get_template_part('/components/download-brochure'); ?>
+
 <?php get_footer(); ?>
